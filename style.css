@@ -1,0 +1,77 @@
+body{
+    background-color: #587261;
+    margin-bottom: 85x;
+    font-size: smaller;
+}
+
+/*Registration Page*/
+#registration{
+    margin-top: 80px;
+    background-color:white ;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+#title{
+    
+    background-color: #E1E6E0;
+    border-radius: 20px;
+    border-color: white;
+}
+#form{
+    background-color: #F4F6F3;
+    border-radius: 20px;
+    border-color: white;
+}
+.input-sec .submit{
+    height: 45px;
+    width: 50%;
+    outline: none;
+    border:none;
+    align-self: center;
+    border-radius: 45px;
+    color: #E1E6E0;
+    background: #8EAA9C;
+}
+.input-sec{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    background-color: #E1E6E0;
+    color:#8EAA9C;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    border-radius: 10px;
+}
+a:hover{
+    
+    color: #C0C4c7;
+    background-color: #8EAA9C;
+}
+
+.error{
+    color: #587271;
+}
+
+/* Register Students Page */
+table { background-color: #E1E6E0;
+    border: 1px solid gray;
+    border-collapse: collapse; 
+}
+
+th, td { padding: 5px; border: 1px solid gray; }
+
+tr:nth-child(even) { background-color: #F4F6F3; }
+
+tr:first-child { background-color: #8EAA9C; }
+
+#registered{
+margin-top: 80px;
+background-color:white ;
+border-radius: 30px;
+padding: 25px;
+}
